@@ -1,36 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on liuxiang's Blog</title><link>https://blog.liuxiang.cn/categories/test/</link><description>Recent content in Test on liuxiang's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>liuxiang</copyright><lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liuxiang.cn/categories/test/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一个博客</title><link>https://blog.liuxiang.cn/p/1/</link><pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate><guid>https://blog.liuxiang.cn/p/1/</guid><description>&lt;h3 id="配置maven文件">配置maven文件
-&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;project&lt;/span> &lt;span class="na">xmlns=&lt;/span>&lt;span class="s">&amp;#34;http://maven.apache.org/POM/4.0.0&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">xmlns:xsi=&lt;/span>&lt;span class="s">&amp;#34;http://www.w3.org/2001/XMLSchema-instance&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">xsi:schemaLocation=&lt;/span>&lt;span class="s">&amp;#34;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&amp;#34;&lt;/span>&lt;span class="nt">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;modelVersion&amp;gt;&lt;/span>4.0.0&lt;span class="nt">&amp;lt;/modelVersion&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;groupId&amp;gt;&lt;/span>org.example&lt;span class="nt">&amp;lt;/groupId&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;artifactId&amp;gt;&lt;/span>SpringDemo&lt;span class="nt">&amp;lt;/artifactId&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;version&amp;gt;&lt;/span>1.0-SNAPSHOT&lt;span class="nt">&amp;lt;/version&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;dependencies&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;dependency&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;groupId&amp;gt;&lt;/span>org.springframework&lt;span class="nt">&amp;lt;/groupId&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;artifactId&amp;gt;&lt;/span>spring-webmvc&lt;span class="nt">&amp;lt;/artifactId&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;version&amp;gt;&lt;/span>5.3.37&lt;span class="nt">&amp;lt;/version&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;/dependency&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;/dependencies&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/project&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="配置spring-configxml">配置spring-config.xml
-&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;beans&lt;/span> &lt;span class="na">xmlns=&lt;/span>&lt;span class="s">&amp;#34;http://www.springframework.org/schema/beans&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">xmlns:xsi=&lt;/span>&lt;span class="s">&amp;#34;http://www.w3.org/2001/XMLSchema-instance&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">xsi:schemaLocation=&lt;/span>&lt;span class="s">&amp;#34;http://www.springframework.org/schema/beans
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> https://www.springframework.org/schema/beans/spring-beans.xsd&amp;#34;&lt;/span>&lt;span class="nt">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;bean&lt;/span> &lt;span class="na">id=&lt;/span>&lt;span class="s">&amp;#34;...&amp;#34;&lt;/span> &lt;span class="na">class=&lt;/span>&lt;span class="s">&amp;#34;...&amp;#34;&lt;/span>&lt;span class="nt">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- collaborators and configuration for this bean go here --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;/bean&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/beans&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Chinese Test</title><link>https://blog.liuxiang.cn/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://blog.liuxiang.cn/p/test-chinese/</guid><description>&lt;img src="https://blog.liuxiang.cn/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">正文测试
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on bigcollege's Blog</title><link>https://bigcollegefw.github.io/blog/categories/test/</link><description>Recent content in Test on bigcollege's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>bigcollege</copyright><lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bigcollegefw.github.io/blog/categories/test/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一个博客</title><link>https://bigcollegefw.github.io/blog/p/1/</link><pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate><guid>https://bigcollegefw.github.io/blog/p/1/</guid><description>&lt;img src="https://bigcollegefw.github.io/blog/wallhaven-57o619.webp" alt="Featured image of post 我的第一个博客" />&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/wallhaven-57o619.webp"
+loading="lazy"
+alt="Photo by Florian Klauer on Unsplash"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/wallhaven-57o619.webp"
+loading="lazy"
+alt="alt text"
+>&lt;/p></description></item><item><title>Chinese Test</title><link>https://bigcollegefw.github.io/blog/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://bigcollegefw.github.io/blog/p/test-chinese/</guid><description>&lt;img src="https://bigcollegefw.github.io/blog/p/test-chinese/wallhaven-e7kpl8.webp" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">正文测试
 &lt;/h2>&lt;p>你们好，我要被搞吐了。但是因此熟悉了git和github。&lt;/p>
 &lt;h2 id="引用">引用
 &lt;/h2>&lt;blockquote>
@@ -40,21 +15,27 @@
 这么沉痛的呵护 我怎么能翱翔&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="图片">图片
-&lt;/h2>&lt;p>&lt;img src="https://blog.liuxiang.cn/florian-klauer-nptLmg6jqDo-unsplash.jpg"
+&lt;/h2>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/test-chinese/4715385bb51076914f07832d01b0aa117b80243d.jpg"
+width="1292"
+height="969"
+srcset="https://bigcollegefw.github.io/blog/blog/p/test-chinese/4715385bb51076914f07832d01b0aa117b80243d_hu7373133410073512217.jpg 480w, https://bigcollegefw.github.io/blog/blog/p/test-chinese/4715385bb51076914f07832d01b0aa117b80243d_hu5847609847585152677.jpg 1024w"
 loading="lazy"
 alt="Photo by Florian Klauer on Unsplash"
-> &lt;img src="https://blog.liuxiang.cn/luca-bravo-alS7ewQ41M8-unsplash.jpg"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+> &lt;img src="https://bigcollegefw.github.io/blog/blog/luca-bravo-alS7ewQ41M8-unsplash.jpg"
 loading="lazy"
 alt="Photo by Luca Bravo on Unsplash"
 >&lt;/p>
-&lt;p>&lt;img src="https://blog.liuxiang.cn/helena-hertz-wWZzXlDpMog-unsplash.jpg"
+&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/helena-hertz-wWZzXlDpMog-unsplash.jpg"
 loading="lazy"
 alt="Photo by Helena Hertz on Unsplash"
-> &lt;img src="https://blog.liuxiang.cn/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
+> &lt;img src="https://bigcollegefw.github.io/blog/blog/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
 loading="lazy"
 alt="Photo by Hudai Gayiran on Unsplash"
 >&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">content/post/chinese-test/4715385bb51076914f07832d01b0aa117b80243d.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>相册语法来自 &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
