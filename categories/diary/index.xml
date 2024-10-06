@@ -1,4 +1,1358 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary on bigcollegefw's Blog</title><link>https://bigcollegefw.github.io/blog/categories/diary/</link><description>Recent content in Diary on bigcollegefw's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>bigcollegefw</copyright><lastBuildDate>Sat, 28 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bigcollegefw.github.io/blog/categories/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>漏钟仍夜浅，时节欲秋分</title><link>https://bigcollegefw.github.io/blog/p/5/</link><pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate><guid>https://bigcollegefw.github.io/blog/p/5/</guid><description>&lt;img src="https://s21.ax1x.com/2024/09/28/pA1MSLq.png" alt="Featured image of post 漏钟仍夜浅，时节欲秋分" />&lt;h3 id="糟糕的境况">糟糕的境况
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary on bigcollegefw's Blog</title><link>https://bigcollegefw.github.io/blog/categories/diary/</link><description>Recent content in Diary on bigcollegefw's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>bigcollegefw</copyright><lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bigcollegefw.github.io/blog/categories/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>从零开始的之路</title><link>https://bigcollegefw.github.io/blog/p/6/</link><pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate><guid>https://bigcollegefw.github.io/blog/p/6/</guid><description>&lt;img src="https://s21.ax1x.com/2024/09/05/pAZDb9O.jpg" alt="Featured image of post 从零开始的之路" />&lt;h3 id="添加自动导航系统控制主角移动">添加自动导航系统，控制主角移动
+&lt;/h3>&lt;p>找到这个包安装
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/1.png"
+width="897"
+height="450"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/1_hu13488385827620061281.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/1_hu14362497695355815528.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="199"
+data-flex-basis="478px"
+>
+创建一个导航网格
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/2.png"
+width="652"
+height="788"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/2_hu15007901560593717066.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/2_hu10835156139303523427.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="82"
+data-flex-basis="198px"
+>&lt;/p>
+&lt;p>想要一个物体不作为障碍物，需要在这个物体上添加组件
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/3.png"
+width="468"
+height="108"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/3_hu10840066122758004875.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/3_hu17689349982543954220.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="433"
+data-flex-basis="1040px"
+>
+对于一个npc，想把它设置为一个障碍物，第一种方式是点NPC后添加这样一个组件
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/4.png"
+width="468"
+height="192"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/4_hu17490417192126402425.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/4_hu1853868715633706710.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="243"
+data-flex-basis="585px"
+>
+也可以这样设置，这种方式更适合大片区域
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/5.png"
+width="1000"
+height="309"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/5_hu2870578971824765877.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/5_hu11306307139636355183.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="323"
+data-flex-basis="776px"
+>&lt;/p>
+&lt;h3 id="实现物体的移动">实现物体的移动
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/6.png"
+width="475"
+height="482"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/6_hu48535744141684549.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/6_hu879631817297310180.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="98"
+data-flex-basis="236px"
+>&lt;/p>
+&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/7.png"
+width="1089"
+height="514"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/7_hu8647624742853057622.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/7_hu6336777383621628826.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="211"
+data-flex-basis="508px"
+>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/8.png"
+width="594"
+height="230"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/8_hu5627704343273215786.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/8_hu14757769534088451564.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="258"
+data-flex-basis="619px"
+>&lt;/p>
+&lt;h3 id="实现摄像机的跟随">实现摄像机的跟随
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/9.png"
+width="459"
+height="84"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/9_hu4255266337251006870.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/9_hu14249313091011605394.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="546"
+data-flex-basis="1311px"
+>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/10.png"
+width="754"
+height="548"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/10_hu9747126952493782851.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/10_hu15851912211350277695.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="330px"
+>&lt;/p>
+&lt;h3 id="交互功能的实现">交互功能的实现
+&lt;/h3>&lt;p>对物体进行标签的分类。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/11.png"
+width="829"
+height="266"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/11_hu9688795805174341296.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/11_hu9390481557129372441.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="311"
+data-flex-basis="747px"
+>
+添加或者组件
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/12.png"
+width="615"
+height="341"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/12_hu8277187327349033362.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/12_hu15004263612670003354.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="432px"
+>
+玩家与物体交互，交互过程中所有被交互物体下都会挂一个InteractableObjects.cs的脚本或者子脚本。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/13.png"
+width="606"
+height="464"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/13_hu9117422895076108252.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/13_hu236271022890521738.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="130"
+data-flex-basis="313px"
+>
+这个方法用protected它确保只有子类可以访问这个方法，而外部类则不能直接访问。这有助于保护类的内部状态不被外部直接修改。使用了&lt;code>virtual&lt;/code>关键字，这意味着它可以在派生类中被重写。&lt;code>virtual&lt;/code>关键字允许你在基类中定义一个方法，然后在派生类中使用&lt;code>override&lt;/code>关键字来提供特定的实现。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/14.png"
+width="665"
+height="596"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/14_hu10693022893806598796.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/14_hu657415209256413695.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="111"
+data-flex-basis="267px"
+>
+这里真的是孬了，属于是不过脑子，代码不过逻辑。unity是足够严谨的，遇到情况一定要将代码逻辑理清楚。&lt;/p>
+&lt;p>实现触碰后交互
+PlayerMove里面没有变化。&lt;/p>
+&lt;h3 id="解决字体问题">解决字体问题
+&lt;/h3>&lt;p>首先新建
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/15.png"
+width="712"
+height="861"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/15_hu15795692342022228961.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/15_hu9962206850789768903.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="82"
+data-flex-basis="198px"
+>
+需要import下包
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/16.png"
+width="773"
+height="615"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/16_hu17113980981074549293.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/16_hu4924316064573062056.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="125"
+data-flex-basis="301px"
+>&lt;/p>
+&lt;p>创建字体文件，因为原来的根本拖不过去。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/17.png"
+width="783"
+height="547"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/17_hu12669530803090392844.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/17_hu1639659561433372447.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+>&lt;/p>
+&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/18.png"
+width="1786"
+height="854"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/18_hu14369971051126662877.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/18_hu13402491876720527649.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="209"
+data-flex-basis="501px"
+>
+点击没反应，因为需要英文命名。英文命名为ICE，前面那个Aa是一个标。保存出来的是
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/19.png"
+width="800"
+height="826"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/19_hu1425769750760968105.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/19_hu11345258956197914037.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="96"
+data-flex-basis="232px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/20.png"
+width="689"
+height="176"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/20_hu7870243319846777217.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/20_hu17436709937738452355.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="391"
+data-flex-basis="939px"
+>&lt;/p>
+&lt;p>然后就是摆UI，我感觉这部分就是在UI里面找组件来搭建。放到一个夫物体上然后设置下bottom，缩放就跟页面。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/21.png"
+width="840"
+height="375"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/21_hu6369366906772932932.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/21_hu1880117752977217234.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="224"
+data-flex-basis="537px"
+>&lt;/p>
+&lt;h3 id="通过代码控制ui的显示与隐藏">通过代码控制UI的显示与隐藏
+&lt;/h3>&lt;p>NPCObject
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/22.png"
+width="614"
+height="363"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/22_hu11158257427776881239.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/22_hu3701921535419439301.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="169"
+data-flex-basis="405px"
+>
+这里一定要命好名，贼坑一点是我之前命好了后来关了结果全没保存，找了以早上空指针异常。长记性了。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/23.png"
+width="840"
+height="295"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/23_hu7261718367988686523.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/23_hu3398501090756591398.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="284"
+data-flex-basis="683px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/24.png"
+width="846"
+height="517"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/24_hu2886894746248853959.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/24_hu6938370150123031520.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="392px"
+>&lt;/p>
+&lt;p>首先在PlayerMove.cs中实现一下点击到ui页面玩家不会移动，更改一处即可
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/25.png"
+width="449"
+height="216"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/25_hu13728601814413924288.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/25_hu10624609152186051024.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="207"
+data-flex-basis="498px"
+>
+实现UI的脚本逻辑。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">DialogueUI&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">TextMeshProUGUI&lt;/span> &lt;span class="n">nameText&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">TextMeshProUGUI&lt;/span> &lt;span class="n">contentText&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Button&lt;/span> &lt;span class="n">continueButton&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 改成public方便在unity中添加内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">contentIndex&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 都是这个this.transform下的子物体,这里相当于给nameText赋值&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nameText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;NameText&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TextMeshProUGUI&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//给文本内容赋值,这里赋值后，contexlist里的索引为0的值就显示不出来了。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ContentText&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TextMeshProUGUI&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 找到这个按钮的组件，按钮组件应该就可以点击&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">continueButton&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ContinueButton&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 给这个按钮添加一个事件监听&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">continueButton&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">onClick&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddListener&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">OnContinueButtonClick&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//一开始就直接隐藏，这才符合逻辑&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Hide&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//提供show方法的重载方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这两个方法是二选一的&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Show&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="n">context&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nameText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//使用一个字符串列表&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentList&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//往列表里添加内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddRange&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">context&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Hide&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//gameObject是指当前挂载了DialogueUI脚本的游戏对象&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Button的监听的事件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnContinueButtonClick&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//判断是否超过了，超过就不显示了，不判断还显示就报空指针&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentIndex&lt;/span>&lt;span class="p">++;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">contentIndex&lt;/span> &lt;span class="p">&amp;gt;=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Count&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Hide&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 这里重置下索引数。保证每次对话哦都能正常显示 &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentIndex&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">contentIndex&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以下是这些方法可能的执行顺序：这里直接问ai了，unity的许多方法什么时候执行&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>Start()&lt;/code>：当对话界面的游戏对象被创建时执行。&lt;/li>
+&lt;li>&lt;code>Show()&lt;/code>：当需要显示对话界面时执行。&lt;/li>
+&lt;li>&lt;code>Show(string name, string[] context)&lt;/code>：紧接着&lt;code>Show()&lt;/code>方法执行，用于设置对话内容。&lt;/li>
+&lt;li>&lt;code>OnContinueButtonClick()&lt;/code>：当玩家点击继续按钮时，这个方法会被调用，用于显示下一段对话或隐藏对话界面。&lt;/li>
+&lt;li>&lt;code>Hide()&lt;/code>：当所有对话内容都显示完毕，或者需要手动隐藏对话界面时执行。&lt;/li>
+&lt;/ol>
+&lt;h3 id="通过单例模式改写">通过单例模式改写
+&lt;/h3>&lt;p>就改了前面一点点&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c#" data-lang="c#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">DialogueUI&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//创建了一个静态的属性，有get和set方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">static&lt;/span> &lt;span class="n">DialogueUI&lt;/span> &lt;span class="n">Instance&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">get&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="kd">private&lt;/span> &lt;span class="k">set&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">TextMeshProUGUI&lt;/span> &lt;span class="n">nameText&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">TextMeshProUGUI&lt;/span> &lt;span class="n">contentText&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Button&lt;/span> &lt;span class="n">continueButton&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 改成public方便在unity中添加内容测试,后面针对到具体人物显示的时候改为私有方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">contentIndex&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//单例属性都在Awake()里面初始化&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Awake&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//判断是否存在两个DialogueUI，单例模式在场景只存在一个DialogueUI。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//如果Instance不是现在这个，只需要保留一个，直接将这个删掉。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">Instance&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="kc">null&lt;/span> &lt;span class="p">&amp;amp;&amp;amp;&lt;/span> &lt;span class="n">Instance&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Instance&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 都是这个this.transform下的子物体,这里相当于给nameText赋值&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nameText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;NameText&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TextMeshProUGUI&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//给文本内容赋值,这里赋值后，contexlist里的索引为0的值就显示不出来了。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ContentText&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TextMeshProUGUI&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 找到这个按钮的组件，按钮组件应该就可以点击&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">continueButton&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ContinueButton&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 给这个按钮添加一个事件监听&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">continueButton&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">onClick&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddListener&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">OnContinueButtonClick&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Hide&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//提供show方法的重载方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Show&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="n">context&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nameText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//使用一个字符串列表&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentList&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//往列表里添加内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddRange&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">context&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Hide&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//gameObject是指当前挂载了DialogueUI脚本的游戏对象&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Button的监听的事件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnContinueButtonClick&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//判断是否超过了，超过就不显示了，不判断还显示就报空指针&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentIndex&lt;/span>&lt;span class="p">++;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">contentIndex&lt;/span> &lt;span class="p">&amp;gt;=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Count&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Hide&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 这里重置下索引数。保证每次对话哦都能正常显示 &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentIndex&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">contentIndex&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c#" data-lang="c#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">NPCObject&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">InteractableObject&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">NPCname&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">protected&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Interact&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">DialogueUI&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Instance&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Show&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="添加武器">添加武器
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/26.png"
+width="1896"
+height="909"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/26_hu9456921919579332012.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/26_hu7115397350697838225.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="208"
+data-flex-basis="500px"
+>&lt;/p>
+&lt;h3 id="添加走路动画和攻击动画">添加走路动画和攻击动画
+&lt;/h3>&lt;p>如果出现以下这种情况，则可能是父物体里面进行了缩放
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/27.png"
+width="330"
+height="252"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/27_hu3082248825953865624.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/27_hu1568060866095193634.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="130"
+data-flex-basis="314px"
+>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/28.png"
+width="762"
+height="196"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/28_hu1040320634634922854.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/28_hu9689713784872709103.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="388"
+data-flex-basis="933px"
+>&lt;/p>
+&lt;p>攻击伤害范围判定
+在关键帧的地方勾选或者取消Mesh Collider组件即可。&lt;/p>
+&lt;h3 id="挥舞武器">挥舞武器
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/29.png"
+width="1028"
+height="205"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/29_hu16080558442846038371.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/29_hu6998932982295829284.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="501"
+data-flex-basis="1203px"
+>
+Weapon中&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c#" data-lang="c#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Weapon&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//伤害&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">attackValue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">virtual&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Attack&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>ScytheWeapon中&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c#" data-lang="c#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">ScytheWeapon&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">Weapon&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这里设置一个常量来存储IsAttack这个字符串。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">const&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">ANIM_PARM_ISATTACK&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">&amp;#34;IsAttack&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//获得这个动画状态机&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Animator&lt;/span> &lt;span class="n">anim&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">anim&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Animator&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">Input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetKeyDown&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">KeyCode&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Space&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Attack&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Attack&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这是没有定义常量的写法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//anim.SetTrigger(&amp;#34;IsAttack&amp;#34;);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">anim&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetTrigger&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ANIM_PARM_ISATTACK&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnTriggerEnter&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Collider&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">tag&lt;/span> &lt;span class="p">==&lt;/span> &lt;span class="s">&amp;#34;Enemy&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//TODO，这个注释表示还没做完&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Trigger with &amp;#34;&lt;/span> &lt;span class="p">+&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>武器的攻击碰触检测：这里需要设置Trigger，给武器添加一个刚体，接着代码实现就可。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/30.png"
+width="1047"
+height="232"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/30_hu3632988941608042280.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/30_hu10854406999128039524.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="451"
+data-flex-basis="1083px"
+>&lt;/p>
+&lt;p>开发PlayerAttack来控制主角攻击&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">PlayerAttack&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//指定武器栏&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">Weapon&lt;/span> &lt;span class="n">weapon&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这里有个好处就是，以后不管换什么武器，我们都只需要调用父类的Attack方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">weapon&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="kc">null&lt;/span> &lt;span class="p">&amp;amp;&amp;amp;&lt;/span> &lt;span class="n">Input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetKeyDown&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">KeyCode&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Space&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">weapon&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Attack&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//装载&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">LoadWeapon&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Weapon&lt;/span> &lt;span class="n">weapon&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">weapon&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">weapon&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//卸下&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">UnloadWeapon&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">weapon&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/31.png"
+width="695"
+height="274"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/31_hu14221426810208971509.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/31_hu115892446256934219.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="253"
+data-flex-basis="608px"
+>&lt;/p>
+&lt;h3 id="开发标枪武器">开发标枪武器
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/32.png"
+width="535"
+height="841"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/32_hu1050811111870033047.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/32_hu11751095783340401855.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="152px"
+>
+给标枪添加一个刚体的属性
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/33.png"
+width="907"
+height="698"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/33_hu18428791547618784851.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/33_hu8036702438478793769.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="129"
+data-flex-basis="311px"
+>
+先清楚这些之间的关系
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/34.png"
+width="780"
+height="471"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/34_hu17117892587480535007.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/34_hu1659456675452813998.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="165"
+data-flex-basis="397px"
+>
+正确示范：
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/35.png"
+width="780"
+height="471"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/35_hu17117892587480535007.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/35_hu1659456675452813998.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="165"
+data-flex-basis="397px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/36.png"
+width="780"
+height="471"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/36_hu8463531817939412758.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/36_hu15989339811929751427.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="165"
+data-flex-basis="397px"
+>
+有两个错误的案例&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Quaternion.identity&lt;/code>是一个静态的&lt;code>Quaternion&lt;/code>值，它代表了一个无旋转的状态。&lt;/li>
+&lt;li>零向量是一个具有大小为零且没有方向的向量。在Unity中，&lt;code>Vector3.zero&lt;/code>提供了一个方便的方式来表示这种概念。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/37.png"
+width="872"
+height="542"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/37_hu8849761978799850637.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/37_hu2092189663006887362.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="386px"
+>&lt;/li>
+&lt;li>&lt;code>transform.position&lt;/code>：这是当前脚本所附着的游戏对象的位置。&lt;code>transform&lt;/code>是Unity中所有游戏对象都有的一个组件，包含位置、旋转和缩放信息。这里表示新实例化的子弹将出现在与当前游戏对象相同的位置。&lt;/li>
+&lt;li>&lt;code>transform.rotation&lt;/code>：这是当前脚本所附着的游戏对象的旋转。新实例化的子弹将继承这个旋转，&lt;strong>错误点在此，这里会使得所有的投的标枪都会有同样的角度&lt;/strong>&lt;/li>
+&lt;li>&lt;code>.velocity&lt;/code>：这是&lt;code>Rigidbody&lt;/code>组件的一个属性，用于设置或获取刚体的当前速度。&lt;/li>
+&lt;li>&lt;code>Vector3.forward&lt;/code>：这是一个表示向前方向的向量（1, 0, 0）。在Unity中，这通常表示沿着局部空间的Z轴正方向。&lt;/li>
+&lt;li>&lt;code>bulletSpeed&lt;/code>：这是一个变量，表示子弹的速度。&lt;/li>
+&lt;li>&lt;code>Vector3.forward * bulletSpeed&lt;/code>：将&lt;code>Vector3.forward&lt;/code>乘以&lt;code>bulletSpeed&lt;/code>，得到一个具有大小为&lt;code>bulletSpeed&lt;/code>且方向向前的速度向量。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/38.png"
+width="1245"
+height="62"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/38_hu8037680706483208744.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/38_hu17433934416635513612.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="2008"
+data-flex-basis="4819px"
+>&lt;/li>
+&lt;/ul>
+&lt;h3 id="完善标枪的发射和销毁">完善标枪的发射和销毁
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/39.png"
+width="1287"
+height="81"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/39_hu13609917098347910268.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/39_hu18255867438540681774.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="1588"
+data-flex-basis="3813px"
+>
+&lt;code>Capsule Collider&lt;/code>是一个性能优化和适用于特定形状碰撞检测的工具，而&lt;code>Mesh Collider&lt;/code>则提供了更广泛的适用性和更高的碰撞精度。选择哪种碰撞器取决于具体的游戏设计需求和性能考虑。
+完善JavnlinWeapon.cs&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">JavnlinWeapon&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">Weapon&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">bulletSpeed&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">bulletPrefab&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">bulletGo&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//保持一开始就有一个标枪&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">SpawnBullet&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">override&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Attack&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//base关键字用来指代当前对象的父类（即超类或基类）的属性、字段或方法。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//base.Attack();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">bulletGo&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//置空父物体&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bulletGo&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">parent&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bulletGo&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody&lt;/span>&lt;span class="p">&amp;gt;().&lt;/span>&lt;span class="n">velocity&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">forward&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">bulletSpeed&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//射出去了进入贤者状态&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bulletGo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//0.5s后又充能好了,会再玩家手上在生成一个标枪&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Invoke&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;SpawnBullet&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0.5f&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这是生成标枪的函数&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">SpawnBullet&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//括号里的参数分别为要实例化的物体，物体的位置，物体的角度，都是随着角色的&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bulletGo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">bulletPrefab&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//生成的标枪不会自动放在游戏物体下面，等下发射出去又需要将父物体置空，不然会跟着父物体一起旋转&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bulletGo&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">parent&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>给JavelinBullet添加脚本&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">JavelinBullet&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Rigidbody&lt;/span> &lt;span class="n">rgd&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Collider&lt;/span> &lt;span class="n">col&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rgd&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">col&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Collider&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnCollisionEnter&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Collision&lt;/span> &lt;span class="n">collision&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//防止标枪碰到玩家后停在原地&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">collision&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">collider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">tag&lt;/span> &lt;span class="p">==&lt;/span> &lt;span class="s">&amp;#34;Player&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rgd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">velocity&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Vector3&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">zero&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//将自身碰撞体设置掉，将col.enabled = false;放置在rgd.isKinematic = true;之前也可以确保物体立即停止与其他物体的物理交互，避免在设置运动学模式生效之前的瞬间发生额外的物理计算&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">col&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">enabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这样就不再受到物理的一些力的影响&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rgd&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">isKinematic&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//销毁&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">1f&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/40.png"
+width="475"
+height="360"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/40_hu3810663655486389429.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/40_hu13837643444221111917.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="131"
+data-flex-basis="316px"
+>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/41.png"
+width="475"
+height="360"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/41_hu3810663655486389429.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/41_hu13837643444221111917.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="131"
+data-flex-basis="316px"
+>
+表示您尝试设置一个运动学刚体的线性速度，这在Unity中是不允许的。
+要解决这个问题，您需要在设置&lt;code>Rigidbody&lt;/code>为运动学模式之前停止速度。but并未解决。
+希望这个bug不会滚起来。&lt;/p>
+&lt;h4 id="射不中自动销毁的实现">射不中自动销毁的实现
+&lt;/h4>&lt;p>我发现这个标枪只有在碰到物体后会自动销毁。所以我自己做了完善
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/42.png"
+width="1199"
+height="411"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/42_hu14793214068231339714.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/42_hu191305149211902732.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="291"
+data-flex-basis="700px"
+>
+这里需要保证下每次invoke函数使用前都确保下已经取消之前的调用，以防重复调用，然后不成功。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/43.png"
+width="549"
+height="385"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/43_hu8012663511262075945.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/43_hu458388234723201733.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="342px"
+>
+这里这样写了之后，有一个判断标枪是否被投掷的过程，所以在后面标枪作为打怪掉落物品的时候，并不会自己因为触碰到什么碰撞物后销毁。真的是前后呼应，有先见之明啊，因为这段代码是我自己改的，后面课程上面提供的两种方法分别是1.搞两种标枪，一种武器，一种专门掉落物，&lt;/p>
+&lt;h4 id="2通过标签区分现在处于什么状态">2.通过标签区分现在处于什么状态。
+&lt;/h4>&lt;ul>
+&lt;li>添加标签，
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/44.png"
+width="799"
+height="368"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/44_hu12435324349267319468.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/44_hu11171276392651929523.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="217"
+data-flex-basis="521px"
+>&lt;/li>
+&lt;li>设置掉落的物体的标签，这一步对于后面玩家捡起掉落物品都需要进行标签判断有关系，不管用不用这种方法都最好加上
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/45.png"
+width="817"
+height="136"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/45_hu14636076727830983543.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/45_hu7504622840983410518.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="600"
+data-flex-basis="1441px"
+>&lt;/li>
+&lt;li>放在SpawnBullet下面是因为这个是生成标枪的函数，玩家扔出标枪时候手上会生成，在敌人掉落的物品处也会生成。生成的那一刹，就会有这个脚本的执行。所以在生成的函数下面加判断即可。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/46.png"
+width="785"
+height="816"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/46_hu18157148430540672845.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/46_hu3236057666736931422.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="96"
+data-flex-basis="230px"
+>&lt;/li>
+&lt;/ul>
+&lt;h3 id="开发物体菜单">开发物体菜单
+&lt;/h3>&lt;p>新建东西
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/47.png"
+width="658"
+height="598"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/47_hu5563672561264297299.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/47_hu9758623918220971872.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="110"
+data-flex-basis="264px"
+>
+使用ScriptObject来进行游戏内物品的管理&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//加入这个特性后，就可以在下面找到这个选项新建&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">[CreateAssetMenu()]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">TestScriptObject&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">ScriptableObject&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">age&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="n">list&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>我们这里新建的文件都移动到下面的目录下，这就是我们游戏物体的一些属性。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/48.png"
+width="941"
+height="298"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/48_hu2540613841906875775.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/48_hu465634092244519440.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="315"
+data-flex-basis="757px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/49.png"
+width="766"
+height="757"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/49_hu157063108431944909.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/49_hu8415307420803591383.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="101"
+data-flex-basis="242px"
+>&lt;/p>
+&lt;h4 id="创建itemso物品数据类">创建itemSO物品数据类
+&lt;/h4>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//这个注解是使得可能直接创建一个ItemSO的文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">[CreateAssetMenu()]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">ItemSO&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">ScriptableObject&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">ItemType&lt;/span> &lt;span class="n">itemType&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">description&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">ItemProperty&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">propertyList&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">Sprite&lt;/span> &lt;span class="n">icon&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">prefab&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">enum&lt;/span> &lt;span class="n">ItemType&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//武器&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Weapon&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//消耗品&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Consumable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//表示一个类可以序列化，序列化后就可以进行数据存储&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">[Serializable]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">ItemProperty&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">ItemPropertyType&lt;/span> &lt;span class="n">propertyType&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="k">value&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">enum&lt;/span> &lt;span class="n">ItemPropertyType&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">HPValue&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">EnergyValue&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">MentalValue&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">SpeedValue&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">AttackValue&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/50.png"
+width="541"
+height="843"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/50_hu17988772052865868357.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/50_hu2940745616553541619.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="64"
+data-flex-basis="154px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/51.png"
+width="283"
+height="229"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/51_hu11514679430269989594.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/51_hu9275358722426933915.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="123"
+data-flex-basis="296px"
+>&lt;/p>
+&lt;h4 id="创建itemdbso类">创建ItemDBSO类
+&lt;/h4>&lt;p>DB就是数据库的意思，这里是整合ItemSO到一个列表的类
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/52.png"
+width="341"
+height="215"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/52_hu7885083618533979636.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/52_hu3998532537690637114.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="158"
+data-flex-basis="380px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/53.png"
+width="911"
+height="775"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/53_hu10234844586983001699.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/53_hu7777314804966103148.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="117"
+data-flex-basis="282px"
+>&lt;/p>
+&lt;h4 id="创建专门管理item的空物体manger">创建专门管理Item的空物体Manger
+&lt;/h4>&lt;p>管理所有的Item信息，也可以给其他的脚本访问得到我们的Item信息。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/54.png"
+width="934"
+height="427"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/54_hu1298970204051922576.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/54_hu4525525714726095434.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="524px"
+>&lt;/p>
+&lt;h4 id="itemdbmanagercs">ItemDBManager.cs
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/55.png"
+width="869"
+height="706"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/55_hu4478310821275900768.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/55_hu8099986238938337971.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="123"
+data-flex-basis="295px"
+>&lt;/p>
+&lt;h4 id="优化一下标签">优化一下标签
+&lt;/h4>&lt;p>创建这样一个类，之后我们需要在之前的代码用到这些东西的地方改成Tag.ENEMY就可以了。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Tag&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">const&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">ENEMY&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">&amp;#34;Enemy&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">const&lt;/span> &lt;span class="kt">string&lt;/span> &lt;span class="n">PLAYER&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">&amp;#34;Player&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="开发敌人掉落物体同时实现敌人的移动">开发敌人掉落物体同时实现敌人的移动
+&lt;/h3>&lt;h4 id="掉落的物体">掉落的物体
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/56.png"
+width="407"
+height="156"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/56_hu15528560958747084780.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/56_hu13140426474974023294.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="260"
+data-flex-basis="626px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/57.png"
+width="985"
+height="228"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/57_hu16249164828540781528.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/57_hu5717088983967315672.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="432"
+data-flex-basis="1036px"
+>&lt;/p>
+&lt;p>新建一个模型，挂一个Enemy脚本
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/58.png"
+width="811"
+height="336"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/58_hu11445993523705629900.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/58_hu17968766766057544808.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="241"
+data-flex-basis="579px"
+>&lt;/p>
+&lt;h4 id="enemycs">Enemy.cs
+&lt;/h4>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine.AI&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Enemy&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">enum&lt;/span> &lt;span class="n">EnemyState&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">NormalState&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">FightingState&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">MovingState&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">RestingState&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">EnemyState&lt;/span> &lt;span class="n">state&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">NormalState&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">EnemyState&lt;/span> &lt;span class="n">childState&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">RestingState&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">NavMeshAgent&lt;/span> &lt;span class="n">enemyAgent&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">HP&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">100&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//设置休息状态的时间&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">restTime&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">2&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">restTimer&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">enemyAgent&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">NavMeshAgent&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">state&lt;/span> &lt;span class="p">==&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">NormalState&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">childState&lt;/span> &lt;span class="p">==&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">RestingState&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//设置经过的时间&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">restTimer&lt;/span> &lt;span class="p">+=&lt;/span> &lt;span class="n">Time&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">deltaTime&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">restTimer&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">restTime&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">randomPositon&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">FindRandomPosition&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">enemyAgent&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetDestination&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">randomPositon&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">childState&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">MovingState&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">childState&lt;/span> &lt;span class="p">==&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">MovingState&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">enemyAgent&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">remainingDistance&lt;/span> &lt;span class="p">&amp;lt;=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">restTimer&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">childState&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">EnemyState&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">RestingState&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//测试用的&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetKeyDown&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">KeyCode&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Space&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">TakeDamage&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">30&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">FindRandomPosition&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//在x和z方向上给一个随机的速度，&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">randomDir&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector3&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="m">1f&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="m">1f&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span> &lt;span class="p">+&lt;/span> &lt;span class="n">randomDir&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">normalized&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="m">5&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 添加受伤方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">TakeDamage&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">damage&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">HP&lt;/span> &lt;span class="p">-=&lt;/span> &lt;span class="n">damage&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">HP&lt;/span> &lt;span class="p">&amp;lt;=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//销毁之前爆装备，在物品列表里随机爆随机数量的随机物品，对itemDB持有一个引用因为它保存了所有的物品信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//将Collider禁用掉，防止敌人与掉落的物体碰撞&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Collider&lt;/span>&lt;span class="p">&amp;gt;().&lt;/span>&lt;span class="n">enabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">count&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">4&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="n">count&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">++)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//这里使用了ItemDBManager方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ItemSO&lt;/span> &lt;span class="n">item&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">ItemDBManager&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Instance&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetRandomItem&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//生成的物品在当前位置，不需要旋转&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">item&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">prefab&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">Quaternion&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">identity&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//爆装的随机装备有初速度由刚体属性实现，isKinematic取消，UseGravity勾选上。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>爆装的随机装备有初速度由刚体属性实现，isKinematic取消，UseGravity勾选上。&lt;/p>
+&lt;h3 id="完善掉落功能">完善掉落功能
+&lt;/h3>&lt;h4 id="掉落的武器一直不在指定的位置可能是动画的影响">掉落的武器一直不在指定的位置，可能是动画的影响
+&lt;/h4>&lt;p>进行一下更改
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/59.png"
+width="818"
+height="658"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/59_hu10824933745214521362.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/59_hu9077146488899463038.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="124"
+data-flex-basis="298px"
+>&lt;/p>
+&lt;h3 id="实现爆出物体的交互">实现爆出物体的交互
+&lt;/h3>&lt;h4 id="给爆出的物体添加脚本">给爆出的物体添加脚本
+&lt;/h4>&lt;p>爆出的物体下面应该有两个东西，一个是PickableObject脚本，一个是Interactable标签
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/60.png"
+width="1823"
+height="1204"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/60_hu14160865798253750820.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/60_hu10665334483306724142.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="151"
+data-flex-basis="363px"
+>&lt;/p>
+&lt;h4 id="优化标枪武器和子弹的爆出逻辑">优化标枪武器和子弹的爆出逻辑
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/61.png"
+width="728"
+height="173"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/61_hu6578737286893606956.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/61_hu15315767805641178158.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="420"
+data-flex-basis="1009px"
+>&lt;/p>
+&lt;h4 id="给玩家">给玩家
+&lt;/h4>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">Unity.VisualScripting&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">PlayerPick&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnCollisionEnter&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Collision&lt;/span> &lt;span class="n">collision&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 先进行标签判断，因为标签判断节约性能，因为npc也有这个属性所以需要找有无PickableObject这个组件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//if(collision.gameObject.CompareTag(Tag.INTERACTABLE))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">PickableObject&lt;/span> &lt;span class="n">po&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">collision&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">PickableObject&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">po&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Debug&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;执行了PlayerPick&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">InventoryManager&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Instance&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddItem&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">po&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">itemSO&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">po&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这个地方我怎么都实现不了这个碰撞，回头再来收拾你。
+在几天十年后
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/62.png"
+width="1494"
+height="950"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/62_hu17059987088051882244.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/62_hu1705403380773252732.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="157"
+data-flex-basis="377px"
+>&lt;/p>
+&lt;h4 id="创建捡起物体的背包类将这个组件挂在manager下">创建捡起物体的背包类，将这个组件挂在Manager下
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/63.png"
+width="1230"
+height="772"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/63_hu3101881066472244482.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/63_hu1214013387429667318.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="382px"
+>&lt;/p>
+&lt;h3 id="主角攻击功能">主角攻击功能
+&lt;/h3>&lt;h4 id="给标枪武器添加伤害">给标枪武器添加伤害
+&lt;/h4>&lt;p>JavelinBullet.cs下
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/64.png"
+width="844"
+height="280"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/64_hu15401868658430068771.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/64_hu6693812635490462230.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="301"
+data-flex-basis="723px"
+>&lt;/p>
+&lt;h4 id="镰刀武器攻击功能">镰刀武器攻击功能
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/65.png"
+width="1031"
+height="715"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/65_hu10712150539146334501.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/65_hu9748566064251258510.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="144"
+data-flex-basis="346px"
+>&lt;/p>
+&lt;h3 id="敌人的批量生成">敌人的批量生成
+&lt;/h3>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/66.png"
+width="968"
+height="993"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/66_hu3842218504450356351.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/66_hu13609130003129965016.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="97"
+data-flex-basis="233px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/67.png"
+width="893"
+height="966"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/67_hu15295867028955499723.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/67_hu8251786668217410542.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="92"
+data-flex-basis="221px"
+>&lt;/p>
+&lt;h3 id="背包ui">背包UI
+&lt;/h3>&lt;h4 id="ui大致的代码pasted-image-20241003135900png">UI大致的代码![[Pasted image 20241003135900.png]]
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/68.png"
+width="687"
+height="638"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/68_hu17980712066796867910.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/68_hu3797764272505991986.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="107"
+data-flex-basis="258px"
+>
+可以去对照之前的版本，主要就是改了下GameObject uiGameObject,因为这个代码被移到父级了。所以在Start方法里面的路径都要改一下。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-C#" data-lang="C#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">TMPro&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine.UI&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">DialogueUI&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//创建了一个静态的属性，有get和set方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">static&lt;/span> &lt;span class="n">DialogueUI&lt;/span> &lt;span class="n">Instance&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">get&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="kd">private&lt;/span> &lt;span class="k">set&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">TextMeshProUGUI&lt;/span> &lt;span class="n">nameText&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">TextMeshProUGUI&lt;/span> &lt;span class="n">contentText&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Button&lt;/span> &lt;span class="n">continueButton&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 改成public方便在unity中添加内容测试,后面针对到具体人物显示的时候改为私有方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">contentIndex&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">uiGameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//单例属性都在Awake()里面初始化&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Awake&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//判断是否存在两个DialogueUI，单例模式在场景只存在一个DialogueUI。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//如果Instance不是现在这个，只需要保留一个，直接将这个删掉。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">Instance&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="kc">null&lt;/span> &lt;span class="p">&amp;amp;&amp;amp;&lt;/span> &lt;span class="n">Instance&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Instance&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 都是这个this.transform下的子物体,这里相当于给nameText赋值&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nameText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;UI/NameText&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TextMeshProUGUI&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//给文本内容赋值,这里赋值后，contexlist里的索引为0的值就显示不出来了。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;UI/ContentText&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">TextMeshProUGUI&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 找到这个按钮的组件，按钮组件应该就可以点击&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">continueButton&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;UI/ContinueButton&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Button&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 给这个按钮添加一个事件监听&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">continueButton&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">onClick&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddListener&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">OnContinueButtonClick&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">uiGameObject&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;UI&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Hide&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//提供show方法的重载方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">uiGameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Show&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">string&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">string&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="n">context&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nameText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//使用一个字符串列表&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentList&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">List&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="kt">string&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//往列表里添加内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">AddRange&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">context&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">uiGameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">Hide&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//gameObject是指当前挂载了DialogueUI脚本的游戏对象&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">uiGameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Button的监听的事件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnContinueButtonClick&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//判断是否超过了，超过就不显示了，不判断还显示就报空指针&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentIndex&lt;/span>&lt;span class="p">++;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">contentIndex&lt;/span> &lt;span class="p">&amp;gt;=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Count&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Hide&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 这里重置下索引数。保证每次对话哦都能正常显示 &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentIndex&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">contentText&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">contentList&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">contentIndex&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="inventoryui">InventoryUI
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/69.png"
+width="779"
+height="616"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/69_hu285841850361811807.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/69_hu7979718322916692031.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="126"
+data-flex-basis="303px"
+>
+Scroll是一种带有滚动条的UI对象&lt;/p>
+&lt;h4 id="进度条不显示的解决方法">进度条不显示的解决方法
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/70.png"
+width="693"
+height="704"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/70_hu16422447862802695935.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/70_hu2084188314598717448.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="98"
+data-flex-basis="236px"
+>
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/71.png"
+width="658"
+height="621"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/71_hu5867675578675568999.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/71_hu8736757626025010677.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="105"
+data-flex-basis="254px"
+>&lt;/p>
+&lt;h4 id="禁用自动均匀分配位置">禁用自动均匀分配位置
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/72.png"
+width="890"
+height="864"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/72_hu2840427248019935787.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/72_hu14668399363949711681.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="103"
+data-flex-basis="247px"
+>&lt;/p>
+&lt;h4 id="保持滚动条与内容长度一致">保持滚动条与内容长度一致
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/73.png"
+width="694"
+height="418"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/73_hu4329399570332096449.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/73_hu9505779170449502893.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="166"
+data-flex-basis="398px"
+>&lt;/p>
+&lt;h4 id="布置ui">布置ui
+&lt;/h4>&lt;p>&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/74.png"
+width="694"
+height="418"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/74_hu4329399570332096449.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/74_hu9505779170449502893.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="166"
+data-flex-basis="398px"
+>&lt;/p>
+&lt;h3 id="通过点击的方式捡起掉落物品">通过点击的方式捡起掉落物品
+&lt;/h3>&lt;p>就是简单改了一下交互的方法，那我之前那个没有办法实现的碰撞捡起，只能先用这种点击捡起方式过渡下了www。
+&lt;img src="https://bigcollegefw.github.io/blog/blog/p/6/pics/75.png"
+width="694"
+height="418"
+srcset="https://bigcollegefw.github.io/blog/blog/p/6/pics/75_hu4329399570332096449.png 480w, https://bigcollegefw.github.io/blog/blog/p/6/pics/75_hu9505779170449502893.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="166"
+data-flex-basis="398px"
+>&lt;/p></description></item><item><title>漏钟仍夜浅，时节欲秋分</title><link>https://bigcollegefw.github.io/blog/p/5/</link><pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate><guid>https://bigcollegefw.github.io/blog/p/5/</guid><description>&lt;img src="https://s21.ax1x.com/2024/09/28/pA1MSLq.png" alt="Featured image of post 漏钟仍夜浅，时节欲秋分" />&lt;h3 id="糟糕的境况">糟糕的境况
 &lt;/h3>&lt;p>这几天都没有打理自己的博客，说实话，我现在目标已经很虚无了，我想自己创造出什么东西来，可是看着手里面的java和各种网站的技术，我感觉这些东西已经很死了，我没有动力再冒出来整出什么了，那意义就是在哪，为了很强的找工作的执念罢了。
 现在我在教室的第一排，先介绍下我这些天忙活的事情，
 首先是一个心态上的改变，我放弃了java的学习，原因可能是一直一来就已经很痛苦了，在某种程度上已经进行不下去了，简单来说学完后发现，其实能做的东西出来后会发现在某种程度上不会让自己有多么兴奋，最后的目的是做网站把汗水奉献公司。
@@ -11,7 +1365,8 @@
 &lt;h3 id="苦短的感悟">苦短的感悟
 &lt;/h3>&lt;h4 id="玩了">玩了
 &lt;/h4>&lt;p>玩了史悲老师的《宅男的人间冒险》。这也是无意在b站刷独立游戏制作人刷到的。他分享做的独立游戏的过程与建议，于是晚上开始嘈杂的时候，我便开始了这款游戏的旅程。玩的时候也一直在换位思考这些美术资源，配音，程序的复杂性。不过独立游戏就是不错呀，没有那么多商业上的严谨，可以夹杂许多私货，我觉得最惊喜的就是这个粤语配音了。玩完一个故事线，也能感受到作者的脑洞之大和许多“这都可以的”操作。
-之前就关注过的森树(up主)也是在做自己的独立游戏，发现想做独立游戏首先选择2d似乎更佳。因为这个更能倾注自己的美术和构思。&lt;/p>
+之前就关注过的森树(up主)也是在做自己的独立游戏，发现想做独立游戏首先选择2d似乎更佳。因为这个更能倾注自己的美术和构思。
+除了这些独立游戏，也一直在时不时的玩只狼，这几天也取得了重大进展，先是干掉了小破戒僧，后双杀狮子猿。发现被入侵了，又是杀上苇名城。我已经玩了很长时间了，但并不是很着急，反而很享受这种不断挑战的过程，所谓狮子辕一天打几回，三四天就打过，所以我玩只狼的秘诀就是，在红温前就退了，精神松懈的时候就强迫自己去打几回，增强动手能力，游戏的苦难既然不好克服，那先看看眼下的困难。所以不要死磕，不断尝试，每一天上手的那一刻都是新鲜的有朝气的。&lt;/p>
 &lt;h4 id="看了">看了
 &lt;/h4>&lt;p>重温了一遍《当幸福来敲门》，之前在某节课上老师放过。给我的触动没有当时那么大了。
 也是重温了一部《大话西游之大圣娶亲》,或者说小时候都是片段性的看完了大部分,这算是真正的第一次看完，说实话我看完很懵，原因就是月光宝盒穿越来的世界是哪里，是平行世界还是投胎后的下一个轮回。所以我找了一些解析视频，果然豁然开朗。
