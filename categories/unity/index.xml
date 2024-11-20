@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Unity on bigcollegefw&#39;s Blog</title>
+        <link>http://localhost:1313/blog/categories/unity/</link>
+        <description>Recent content in Unity on bigcollegefw&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>bigcollegefw</copyright>
+        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/unity/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>UGUI基本框架</title>
+        <link>http://localhost:1313/blog/p/ugui%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6/</link>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/ugui%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6/</guid>
+        <description>&lt;img src="https://s21.ax1x.com/2024/09/09/pAmKqXD.webp" alt="Featured image of post UGUI基本框架" /&gt;&lt;p&gt;​## 框架基本部分&lt;/p&gt;
+&lt;p&gt;UIManager &amp;mdash; 跨场景的全局UI管理器
+BasePanel &amp;mdash; 所有界面的父类
+界面配置关系表 &amp;mdash;界面预制件的配置路径&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/Pasted%20image%2020241118084705.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/Pasted%20image%2020241118092205.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+总结就是UIManager和BasePanel主要负责哪个页面显示，哪个页面不显示。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
